@@ -95,22 +95,25 @@ $(".click3").click(function() {
   })
 
 
-  $("form#contact-form").on("submit", function(event) {
-    event.preventDefault();
-    var name = $("input#form_name").val();
-    var enail= $("input#form_email").val();
-    var message = $("input#form_message").val();
-    var result = ("Hello " + name + " we received your message. Thank you for reaching to us well get back soon");
-
-    $("#output").text(result);
-
-    // if($("input#form_name").val() && $("input#form_email").val() && $("input#form_message").val() ){
-    //   alert("Hello" + name + "Thanks for reaching, we'll reach out to you soon! ");
-    // }
-    // else if ($("input#form_name").val() && $("input#form_email").val() ){
-    //   alert("Kindly leave a message");
-    // }
-
+  $("button").click(function(){
+    var name = document.getElementById("text1").value;
+    var email = document.getElementById("text2").value;
+    var message = document.getElementById("text3").value;
+    if (name===""){
+      alert("enter your name")
+    }
+    else
+    if(email===""){
+      alert("enter your email")
+    }
+    else
+    if(message===""){
+      alert("type text")
+    }
+    else{
+      alert("Dear " +   name + " we have received your message successfully." +
+      " Feel free to reach out to us anytime. Click Ok to continue to the next page");
+    }
   });
 
 

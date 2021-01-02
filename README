@@ -9,7 +9,7 @@ This project displays how a Delani studio works besides allowing partticipants t
 
 ## project Set up Instructions
 * Ctrl + alt + t to open the terminal
-* now git clone  https://github.com/ngenoh_zephenia/delani-studio.git
+* now git clone  https://github.com/ngenohzephenia/DELANI-STUDIO
 * you can use code . to open it.
 ## Known Bugs
 ## Technologies Used
@@ -18,7 +18,7 @@ This project displays how a Delani studio works besides allowing partticipants t
 * Github
 * Javascript
 ## Support and contact details
-I would like to give credit to my Technical mentors Paul Gichuki and Cynthia Kasampuli for the guidance he gave me towards the development of this web
+I would like to give credit to my Technical mentor Raphael Katana for the guidance he gave me towards the development of this web
 ### License
 MIT License
 
