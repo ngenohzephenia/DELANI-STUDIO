@@ -1,12 +1,12 @@
-.card-hide { 
-    display: none;
-}
-
 .card-hide1 { 
     display: none;
 }
 
 .card-hide2 { 
+    display: none;
+}
+
+.card-hide3 { 
     display: none;
 }
 
@@ -17,43 +17,24 @@
     border-radius: 50%;
 }
 
-#form_name{
-    background-color: transparent;
-    color: white !important;
-}
-#form_email{
-    background-color: transparent;
-    color: white;
-}
-#form_message{
-    background-color: transparent;
-    color: white;
-}
-
-
-
 .work1,.work2,.work3,.work4,.work5,.work6,.work7,.work8{
     position: relative;
 }
 .work1a,.work2a,.work3a,.work4a,.work5a,.work6a,.work7a,.work8a {
     display: none;
     color: white;
-    background-color:rgba(105,105,105);
+    background-color:rgb(211, 201, 201);
     position:absolute;
-    top: 20px;
-    left: 30px;
-    right: 30px;
+    top: 15px;
+    left: 20px;
+    right: 20px;
     bottom: 20px;
     font-weight: bold;
     text-align: center;
     font-size: 30px;
     padding-top: 30%;
-    font-family: 'Delius Swash Caps', cursive;
     opacity: 0.8;
     border: 2px solid #fff;
 
 
 }
-
-
-    
